@@ -10,7 +10,7 @@ export default defineConfig({
       // Avoiding CORS Errors
       "/api" : {
         // requests to /api will be forwarded to this target
-        target : "http://aschopaaa.com.br:8000",
+        target : "http://0.0.0.0:8000",
         // makes the server think the request is coming directly from the proxy server.
         // by changing the  origin of the host header to the target URL
         changeOrigin : true,
