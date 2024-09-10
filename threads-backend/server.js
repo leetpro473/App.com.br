@@ -44,5 +44,5 @@ if (process.env.NODE_ENV === "production") {
 }
 
 server.listen(PORT, () => {
-  console.log(`Server is Running at http://localhost:${PORT}`);
+  console.log(`Server is Running at http://aschopaa.com.br:${PORT}`);
 });
